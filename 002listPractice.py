@@ -46,6 +46,7 @@ print ("2nd and 3rd element:", arr[1:3]) # Remember the last index is ignored
 print ("Last element:", arr[-1])
 print ("Last 3 elements:", arr[-3:])
 print ("Reversed array:",arr[::-1])
+# arr.reverse() - Permanently reverses the list
 
 
 
@@ -66,3 +67,8 @@ if 7 in arr:
     print ("7 exists in array")
 if 8 in arr:
     print ("8 exists in array")
+
+arr.append(0)
+print ("Current list:", arr)
+arr.sort()
+print ("List after sort:", arr)
